@@ -1,5 +1,5 @@
 {
-  "name": "@ameagari_dev/nana-api",
+  "name": "nana-api",
   "version": "1.0.1",
   "description": "nhentai unofficial api",
   "main": "./index.js",
@@ -9,14 +9,12 @@
   "dependencies": {
     "axios": "^0.19.2",
     "cheerio": "^1.0.0-rc.3",
-    "qs": "^6.9.3",
-    "typescript": "^3.8.3"
+    "qs": "^6.9.3"
   },
   "directories": {
     "lib": "lib",
     "test": "test"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "node test/test.js"
   },

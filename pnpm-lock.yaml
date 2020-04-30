@@ -2,7 +2,6 @@ dependencies:
   axios: 0.19.2
   cheerio: 1.0.0-rc.3
   qs: 6.9.3
-  typescript: 3.8.3
 lockfileVersion: 5.1
 packages:
   /@types/node/13.13.4:
@@ -170,13 +169,6 @@ packages:
     dev: false
     resolution:
       integrity: sha512-hkRX8U1WjJFd8LsDJ2yQ/wWWxaopEsABU1XfkM8A+j0+85JAGppt16cr1Whg6KIbb4okU6Mql6BOj+uup/wKeA==
-  /typescript/3.8.3:
-    dev: false
-    engines:
-      node: '>=4.2.0'
-    hasBin: true
-    resolution:
-      integrity: sha512-MYlEfn5VrLNsgudQTVJeNaQFUAI7DkhnOjdpAp4T+ku1TfQClewlbSuTVHiA+8skNBgaf02TL/kLOvig4y3G8w==
   /util-deprecate/1.0.2:
     dev: false
     resolution:
@@ -185,4 +177,3 @@ specifiers:
   axios: ^0.19.2
   cheerio: ^1.0.0-rc.3
   qs: ^6.9.3
-  typescript: ^3.8.3
