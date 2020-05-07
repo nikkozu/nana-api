@@ -1,11 +1,22 @@
-## This is an unofficial API
+# Nana API
+nHentai unofficial API
 
-# Example
+## Install
+```
+npm install nana-api
+```
+
+
+## Example
 ```js
-const NanaAPI = require('./index');
-const API = new NanaApi();
+const NanaAPI = require('nana-api');
+const nana = new NanaAPI();
 
-API.g('4501').then(gallery => {
-    console.log(gallery);
+// Get gallery from book ID or book link
+nana.g('14045').then(g => {
+    console.log(g);
+});
+nana.g('https://nhentai.net/g/4501').then(g => {
+    console.log(g);
 });
 ```

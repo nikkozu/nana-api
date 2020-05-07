@@ -1,1 +1,3 @@
-module.exports = require("./lib/nHentai");
+const nHentai = require("./lib/nHentai");
+
+module.exports = nHentai;
