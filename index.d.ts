@@ -107,7 +107,7 @@ declare module "nana-api" {
 		 * @param {string} [popular=false] get from popular page
 		 * @return {object} nHentai list object
 		 */
-		look(
+		search(
 			keyword: string,
 			page?: number,
 			popular?: boolean
