@@ -26,7 +26,7 @@ nana.g("https://nhentai.net/g/4501").then((g) => {
 ## Results
 
 * **Book Object**
-```json
+```
 {
   id: 4501,
   media_id: '14634',
@@ -79,7 +79,7 @@ nana.g("https://nhentai.net/g/4501").then((g) => {
 ```
 
 * **List Object**
-```json
+```
 {
   num_pages: 852,
   results: [
