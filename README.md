@@ -16,16 +16,17 @@ const nana = new NanaAPI();
 
 // Get gallery from book ID or book link
 nana.g("14045").then((g) => {
-	console.log(g);
+  console.log(g);
 });
 nana.g("https://nhentai.net/g/4501").then((g) => {
-	console.log(g);
+  console.log(g);
 });
 ```
 
 ## Results
 
-* **Book Object**
+- **Book Object**
+
 ```
 {
   id: 4501,
@@ -78,7 +79,8 @@ nana.g("https://nhentai.net/g/4501").then((g) => {
 }
 ```
 
-* **List Object**
+- **List Object**
+
 ```
 {
   num_pages: 852,
@@ -119,12 +121,14 @@ nana.g("https://nhentai.net/g/4501").then((g) => {
 ```
 
 ## API List
+
 The ID of a doujin can be found can be found at after the `/g/` in the search bar or a URL.
 
 `https://nhentai.net/g/248121` in this case `248121` is the ID.
 
-**nanaAPI.g(ID | Link)**  
-* `ID | Link` can both `string` or `number`
+**nanaAPI.g(ID | Link)**
+
+- `ID | Link` can both `string` or `number`
 
 Get book API from book ID of book Link  
 return a `Book Object`
@@ -133,14 +137,16 @@ return a `Book Object`
 Get random book API  
 return a `Book Object`
 
-**nanaAPI.related(ID | Link)**  
-* `ID | Link` can both `string` or `number`
+**nanaAPI.related(ID | Link)**
+
+- `ID | Link` can both `string` or `number`
 
 Get realated book API from book ID or book link  
 return a `List Object`
 
-**nanaAPI.homepage([page])**  
-* `page` is `optional` and must be a `number`
+**nanaAPI.homepage([page])**
+
+- `page` is `optional` and must be a `number`
 
 Get book list from nHentai homepage  
 return a `List Object`
@@ -150,8 +156,9 @@ Get book list from popular section
 return a `List Object`
 
 **nanaAPI.search(keyword [, page, popular ])**
-* `page` must be a `number`
-* `popular` must be a `boolean`, if set `true` will get the `popular` list
+
+- `page` must be a `number`
+- `popular` must be a `boolean`, if set `true` will get the `popular` list
 
 Get search list from keyword provided
 return a `List Object`
