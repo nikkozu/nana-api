@@ -16,14 +16,18 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [10.x, 12.x, 14.x]
+        node-version: [12.x, 14.x]
 
     steps:
+    - name: Setup PNPM
+      uses: pnpm/action-setup@v1.2.0
+      with:
+        # Version of PNPM to install
+        version: 5.4.0
     - uses: actions/checkout@v2
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - run: npm ci
-    - run: npm run build --if-present
-    - run: npm test
+    - run: pnpm install --frozen-lockfile
+    - run: pnpm test
