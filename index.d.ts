@@ -110,7 +110,7 @@ declare module "nana-api" {
     search(
       keyword: string,
       page?: number,
-      popular?: boolean
+      popular?: boolean | string
     ): Promise<nHentaiListObject>;
 
     /**
@@ -124,7 +124,7 @@ declare module "nana-api" {
     tag(
       keyword: string,
       page?: number,
-      popular?: boolean
+      popular?: boolean | string
     ): Promise<nHentaiListObject>;
 
     /**
@@ -138,7 +138,7 @@ declare module "nana-api" {
     artist(
       keyword: string,
       page?: number,
-      popular?: boolean
+      popular?: boolean | string
     ): Promise<nHentaiListObject>;
 
     /**
@@ -152,7 +152,7 @@ declare module "nana-api" {
     character(
       keyword: string,
       page?: number,
-      popular?: boolean
+      popular?: boolean | string
     ): Promise<nHentaiListObject>;
 
     /**
@@ -166,7 +166,7 @@ declare module "nana-api" {
     parody(
       keyword: string,
       page?: number,
-      popular?: boolean
+      popular?: boolean | string
     ): Promise<nHentaiListObject>;
 
     /**
@@ -180,7 +180,7 @@ declare module "nana-api" {
     group(
       keyword: string,
       page?: number,
-      popular?: boolean
+      popular?: boolean | string
     ): Promise<nHentaiListObject>;
   }
 }
