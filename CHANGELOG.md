@@ -25,5 +25,6 @@ All notable changes to this project will be documented in this file. This projec
 
 -   Fixed `num_pages` result in Request API file.
 
+[1.1.0]: https://github.com/masami45/nana-api/compare/v1.0.6...v1.1.0
 [1.0.6]: https://github.com/masami45/nana-api/releases/tag/v1.0.6
 
