@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file. This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.1] - 2020-07-29
+
+### Changed
+- 	fix additional function to get sort for some main function
+
 ## [1.1.0] - 2020-07-29
 
 ### Added
