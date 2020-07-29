@@ -1,15 +1,29 @@
 # Changelog
 
-All notable changes to this project will be documented in this file.
+All notable changes to this project will be documented in this file. This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+## [1.1.0] - 2020-07-29
 
-## 1.0.6 - 2020-06-25
+### Added
 
-## Added
-
-- This CHANGELOG file.
+-   new popular parameter on some function so now can use `"today"`, `"week"`, and `"all"` or `true`
+-   mocha test file, `test/test.js`
+-   new additional function on `nHentai.js` to get popular sort that will use by some main function
 
 ### Changed
 
-- Fixed `num_pages` result in Request API file.
+-   query stringify for `search` function
+-   parameter interface on some function at `index.d.ts` file
+
+## [1.0.6] - 2020-06-25
+
+### Added
+
+-   This CHANGELOG file.
+
+### Changed
+
+-   Fixed `num_pages` result in Request API file.
+
+[1.0.6]: https://github.com/masami45/nana-api/releases/tag/v1.0.6
+

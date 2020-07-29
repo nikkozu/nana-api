@@ -158,7 +158,8 @@ return a `List Object`
 **nanaAPI.search(keyword [, page, popular ])**
 
 - `page` must be a `number`
-- `popular` must be a `boolean`, if set `true` will get the `popular` list
+- `popular` can be a `boolean` or `string`, if set `true` will get the `popular` list
+available `string` parameter is: `today`, `all`, and `week`
 
 Get search list from keyword provided
 return a `List Object`
