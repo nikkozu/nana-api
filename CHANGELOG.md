@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. This project adheres to [SemVer](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.2] - 2020-07-30
+
+### Added
+-	conddition to get `num_results` alternative
+-	condition to check if no `pagination` on page and set default to `1`
+
+### Changed
+-	regex `keyword.replace` on some function
+-	simplify the additional function to get popular sort
+-	fix `null` on `num_results` and `num_pages`
+-	fix `.related()` API if the query is `number`
+
 ## [1.1.1] - 2020-07-29
 
 ### Changed
@@ -33,3 +45,4 @@ All notable changes to this project will be documented in this file. This projec
 [1.1.1]: https://github.com/masami45/nana-api/compare/v1.1.0...v1.1.1
 [1.1.0]: https://github.com/masami45/nana-api/compare/v1.0.6...v1.1.0
 [1.0.6]: https://github.com/masami45/nana-api/releases/tag/v1.0.6
+

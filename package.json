@@ -1,37 +1,36 @@
 {
-    "name": "nana-api",
-    "version": "1.1.1",
-    "description": "nhentai unofficial api",
-    "main": "./index.js",
-    "typings": "./index.d.ts",
-    "author": "Masami",
-    "license": "MIT",
-    "dependencies": {
-        "axios": "^0.19.2",
-        "cheerio": "^1.0.0-rc.3",
-        "mocha": "^8.0.1",
-        "qs": "^6.9.3"
-    },
-    "directories": {
-        "lib": "lib/",
-        "test": "test/"
-    },
-    "scripts": {
-        "dev": "node test/testing.js",
-        "test": "mocha test/test.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/Masami45/nana-api.git"
-    },
-    "keywords": [
-        "nhentai",
-        "unofficial",
-        "api",
-        "nana"
-    ],
-    "bugs": {
-        "url": "https://github.com/Masami45/nana-api/issues"
-    },
-    "homepage": "https://github.com/Masami45/nana-api#readme"
+  "name": "nana-api",
+  "version": "1.1.2",
+  "description": "nhentai unofficial api",
+  "main": "./index.js",
+  "typings": "./index.d.ts",
+  "author": "Masami",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "chai": "^4.2.0",
+    "cheerio": "^1.0.0-rc.3",
+    "qs": "^6.9.3"
+  },
+  "directories": {
+    "lib": "lib/",
+    "test": "test/"
+  },
+  "scripts": {
+    "test": "node test/testing.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Masami45/nana-api.git"
+  },
+  "keywords": [
+    "nhentai",
+    "unofficial",
+    "api",
+    "nana"
+  ],
+  "bugs": {
+    "url": "https://github.com/Masami45/nana-api/issues"
+  },
+  "homepage": "https://github.com/Masami45/nana-api#readme"
 }
