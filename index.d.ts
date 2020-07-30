@@ -67,7 +67,7 @@ declare module "nana-api" {
      * @param {string} query nHentai book ID
      * @return {object} nHentai book object
      */
-    g(query: string): Promise<nHentaiAPI>;
+    g(query: string | number): Promise<nHentaiAPI>;
 
     /**
      * Get random book API
@@ -79,10 +79,10 @@ declare module "nana-api" {
     /**
      * Get related book API from book ID or book Link
      *
-     * @param {string} query nHentai book ID
+     * @param {string | number} query nHentai book ID
      * @return {object} nHentai book object
      */
-    related(query: string): Promise<nHentaiRelatedAPI>;
+    related(query: string | number): Promise<nHentaiRelatedAPI>;
 
     /**
      * Get book list from homepage
