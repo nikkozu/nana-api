@@ -14,9 +14,6 @@ All notable changes to this project will be documented in this file. This projec
 -	fix `null` on `num_results` and `num_pages`
 -	fix `.related()` API if the query is `number`
 
-### Deleted
-- mocha test file
-
 ## [1.1.1] - 2020-07-29
 
 ### Changed
