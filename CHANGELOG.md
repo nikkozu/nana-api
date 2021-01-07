@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. This project adheres to [SemVer](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.3] - 2020-01-07
+
+### Changed
+- Axios version to `0.21.1`
+- `test/testing.js` to `test/test.js`
+- node package manager from `pnpm` to `npm`
+
+### Removed
+- old `test/test.js`
+- `pnpm-lock.yaml`
+
 ## [1.1.2] - 2020-07-30
 
 ### Added
@@ -42,6 +53,7 @@ All notable changes to this project will be documented in this file. This projec
 
 -   Fixed `num_pages` result in Request API file.
 
+[1.1.3]: https://github.com/masami45/nana-api/compare/v1.1.2...v1.1.3
 [1.1.2]: https://github.com/masami45/nana-api/compare/v1.1.1...v1.1.2
 [1.1.1]: https://github.com/masami45/nana-api/compare/v1.1.0...v1.1.1
 [1.1.0]: https://github.com/masami45/nana-api/compare/v1.0.6...v1.1.0
