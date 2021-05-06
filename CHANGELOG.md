@@ -2,7 +2,16 @@
 
 All notable changes to this project will be documented in this file. This project adheres to [SemVer](https://semver.org/spec/v2.0.0.html).
 
-## [1.1.3] - 2020-01-07
+## [1.1.4] - 2021-05-06
+
+### Added
+- Fuction to modify the keyword on `lib/nHentai.js`
+
+### Changed
+- URL variables on `lib/nHentai.js` to using the new function
+- v1.1.3 date on `CHANGELOG.md` file
+
+## [1.1.3] - 2021-01-07
 
 ### Changed
 - Axios version to `0.21.1`
@@ -53,6 +62,7 @@ All notable changes to this project will be documented in this file. This projec
 
 -   Fixed `num_pages` result in Request API file.
 
+[1.1.4]: https://github.com/masami45/nana-api/compare/v1.1.3...v1.1.4
 [1.1.3]: https://github.com/masami45/nana-api/compare/v1.1.2...v1.1.3
 [1.1.2]: https://github.com/masami45/nana-api/compare/v1.1.1...v1.1.2
 [1.1.1]: https://github.com/masami45/nana-api/compare/v1.1.0...v1.1.1
