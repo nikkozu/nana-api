@@ -80,9 +80,9 @@ declare module "nana-api" {
      * Get related book API from book ID or book Link
      *
      * @param {string | number} query nHentai book ID
-     * @returns {object} nHentai book object
+     * @returns {object|null} nHentai book object
      */
-    related(query: string | number): Promise<nHentaiRelatedAPI>;
+    related(query: string | number): Promise<nHentaiRelatedAPI|null>;
 
     /**
      * Get book list from homepage
