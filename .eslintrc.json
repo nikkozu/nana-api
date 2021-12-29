@@ -14,7 +14,7 @@
   },
   "rules": {
     "indent": ["warn", 2, { "ignoreComments": true }],
-    "linebreak-style": ["error", "unix"],
+    "valid-jsdoc":"error",
     "quotes": ["warn", "double"],
     "semi": ["warn", "always"],
     "no-unused-vars": "warn"
