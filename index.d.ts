@@ -111,7 +111,7 @@ declare module "nana-api" {
       keyword: string,
       page?: number,
       popular?: boolean | string
-    ): Promise<nHentaiListObject>;
+    ): Promise<nHentaiListObject|null>;
 
     /**
      * Get tags list from keyword provided
