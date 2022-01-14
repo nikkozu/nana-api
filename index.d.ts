@@ -65,14 +65,14 @@ declare module "nana-api" {
      * Get book API from book ID or book Link
      *
      * @param {string} query nHentai book ID
-     * @return {object} nHentai book object
+     * @returns {object|null} nHentai book object
      */
-    g(query: string | number): Promise<nHentaiAPI>;
+    g(query: string | number): Promise<nHentaiAPI|null>;
 
     /**
      * Get random book API
      *
-     * @return {object} nHentai book object
+     * @returns {object} nHentai book object
      */
     random(): Promise<nHentaiAPI>;
 
@@ -80,22 +80,22 @@ declare module "nana-api" {
      * Get related book API from book ID or book Link
      *
      * @param {string | number} query nHentai book ID
-     * @return {object} nHentai book object
+     * @returns {object|null} nHentai book object
      */
-    related(query: string | number): Promise<nHentaiRelatedAPI>;
+    related(query: string | number): Promise<nHentaiRelatedAPI|null>;
 
     /**
      * Get book list from homepage
      *
      * @param {number} [page=1] page number
-     * @return {object} nHentai list object
+     * @returns {object} nHentai list object
      */
     homepage(page?: number): Promise<nHentaiListObject>;
 
     /**
      * Get book list from popular section
      *
-     * @return {object} nHentai popular list object
+     * @returns {object} nHentai popular list object
      */
     popular(): Promise<nHentaiListObject>;
 
@@ -105,7 +105,7 @@ declare module "nana-api" {
      * @param {string} keyword search keyword
      * @param {number} [page=1] page number
      * @param {string} [popular=false] get from popular page
-     * @return {object} nHentai list object
+     * @returns {object} nHentai list object
      */
     search(
       keyword: string,
@@ -119,7 +119,7 @@ declare module "nana-api" {
      * @param {string} keyword tag keyword
      * @param {number} [page=1] page number
      * @param {boolean} [popular=false] get from popular page
-     * @return {object} nHentai list object
+     * @returns {object} nHentai list object
      */
     tag(
       keyword: string,
@@ -133,7 +133,7 @@ declare module "nana-api" {
      * @param {string} keyword artist keyword
      * @param {number} [page=1] page number
      * @param {boolean} [popular=false] get from popular page
-     * @return {object} nHentai list object
+     * @returns {object} nHentai list object
      */
     artist(
       keyword: string,
@@ -147,7 +147,7 @@ declare module "nana-api" {
      * @param {string} keyword character keyword
      * @param {number} [page=1] page number
      * @param {boolean} [popular=false] get from popular page
-     * @return {object} nHentai list object
+     * @returns {object} nHentai list object
      */
     character(
       keyword: string,
@@ -161,7 +161,7 @@ declare module "nana-api" {
      * @param {string} keyword parody keyword
      * @param {number} [page=1] page number
      * @param {boolean} [popular=false] get from popular page
-     * @return {object} nHentai list object
+     * @returns {object} nHentai list object
      */
     parody(
       keyword: string,
@@ -175,7 +175,7 @@ declare module "nana-api" {
      * @param {string} keyword group keyword
      * @param {number} [page=1] page number
      * @param {boolean} [popular=false] get from popular page
-     * @return {object} nHentai list object
+     * @returns {object} nHentai list object
      */
     group(
       keyword: string,
