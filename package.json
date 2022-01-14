@@ -4,12 +4,12 @@
   "description": "nhentai unofficial api",
   "main": "./index.js",
   "typings": "./index.d.ts",
-  "author": "Masami",
+  "author": "Rin!",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.21.1",
-    "cheerio": "^1.0.0-rc.3",
-    "qs": "^6.9.3"
+    "axios": "^0.21.4",
+    "cheerio": "^1.0.0-rc.10",
+    "qs": "^6.10.3"
   },
   "directories": {
     "lib": "lib/",
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Masami45/nana-api.git"
+    "url": "git+https://github.com/nikkozu/nana-api.git"
   },
   "keywords": [
     "nhentai",
@@ -29,7 +29,7 @@
     "nana"
   ],
   "bugs": {
-    "url": "https://github.com/Masami45/nana-api/issues"
+    "url": "https://github.com/nikkozu/nana-api/issues"
   },
-  "homepage": "https://github.com/Masami45/nana-api#readme"
+  "homepage": "https://github.com/nikkozu/nana-api#readme"
 }
