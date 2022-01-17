@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file. This project adheres to [SemVer](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.5] - 2021-12-29
+
+### Changed
+- Return Not Found from `string` to `null`
+
 ## [1.1.4] - 2021-05-06
 
 ### Added
