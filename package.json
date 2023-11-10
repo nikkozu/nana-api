@@ -7,7 +7,7 @@
   "author": "Rin!",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.21.4",
+    "axios": "^1.6.0",
     "cheerio": "^1.0.0-rc.10",
     "qs": "^6.10.3"
   },
